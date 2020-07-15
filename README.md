@@ -10,9 +10,9 @@ _tested on: node v10.21.0, npm v6.14.4, express v4.17.1, qs v6.9.4, xmlhttpreque
   4) $ npm install express xmlhttprequest qs
   5) create an app with a slash command with the Request URL:
      http://server.url:port/anonymous
-     ![edit slash command](edit_slash_command.png)
   6) make sure app has Bot Token Scopes: chat:write, commands
   7) add the app to workspace
   8) $ node anonymous.js
   
-  ![anonymous demo](anonymous_demo.png)
+![anonymous demo](anonymous_demo.png)
+![edit slash command](edit_slash_command.png)
