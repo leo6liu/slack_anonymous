@@ -14,6 +14,9 @@
 //   6) add the app to workspace
 //   7) $ node anonymous.js
 //
+// tested on: node v10.21.0, npm v6.14.4, express v4.17.1, qs v6.9.4,
+//            xmlhttprequest v1.8.0
+//
 // modification history:
 //   20200615 (LB): initial version
 //
