@@ -4,15 +4,14 @@
 // description: an express app to handle a Slack slash command (/anonymous)
 //
 // instructions:
-//   1) place anonymous.js in an empty directory
-//   2) cd into the new directory
-//   3) modify the values of slackToken and slackSigningSecret in anonymous.js
-//   4) $ npm install express xmlhttprequest qs
-//   5) create an app with a slash command with the Request URL:
+//   1) create an app with a slash command with the Request URL:                
 //      http://server.url:port/anonymous
-//   6) make sure app has Bot Token Scopes: chat:write, commands
-//   6) add the app to workspace
-//   7) $ node anonymous.js
+//   2) make sure app has Bot Token Scopes: chat:write, commands                  
+//   3) place anonymous.js in an empty directory                                     
+//   4) cd into the new directory                                               
+//   5) modify the values of slackToken and slackSigningSecret in note.js       
+//   6) $ npm install express xmlhttprequest qs                                 
+//   7) add the app to workspace                                                
 //
 // tested on: node v10.21.0, npm v6.14.4, express v4.17.1, qs v6.9.4,
 //            xmlhttprequest v1.8.0
@@ -24,8 +23,8 @@
 // set port and credentials
 //
 const port = 8080; // specify port to listen on
-const slackToken = 'xoxb-1214041371813-1266486722224-8OzBa26TeBGhAH2P6AlmJYLf';
-const slackSigningSecret = '85fcc34a4a660358c1b1f06a1a7cb0fb';
+const slackToken = 'PLACEHOLDER';
+const slackSigningSecret = 'PLACEHOLDER';
 
 // include modules
 //
